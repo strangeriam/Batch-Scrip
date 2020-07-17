@@ -1,0 +1,18 @@
+
+# Remark
+REM Hello World!!
+
+# Example Code: COPY Files
+# ==========================================
+@ECHO OFF
+CD C:\Program Files (x86)\Google\Chrome
+PAUSE
+
+COPY  *.txt  C:\Users\Coding7-2017\Downloads
+ECHO finish
+# ==========================================
+
+# ECHO OFF: 之後的命令都不會顯示.
+# ECHO ON: 之後的命令都會顯示.
+# ECHO: 輸出字串, 像是 TCL 的 puts.
+# PAUSE: 暫停, cmd 會停住, 等按任意鍵繼續.
