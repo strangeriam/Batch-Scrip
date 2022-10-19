@@ -1,0 +1,4 @@
+# timeout /t 5
+Waiting for 5 seconds, press a key to continue ...
+
+# sleep 5
